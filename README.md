@@ -19,3 +19,7 @@ The algorithm can be broken down into 4 states in a state machine.
 - ROS2 (Foxy or later)
 - F1Tenth Gym simulator
 - Python 3.x or C++ compiler (depending on the implementation)
+
+- ## 🧪 Demo
+
+![Parking Demo](video.gif)
