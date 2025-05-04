@@ -13,9 +13,7 @@ The algorithm can be broken down into 4 states in a state machine.
 - Straighten the car and stop
 
 ## 🛠️ How to Run the Code
-
-```bash
-ros2 run parking parking.py
+```ros2 run parking parking.py```
 
 ### 📦 Prerequisites
 - ROS2 (Foxy or later)
