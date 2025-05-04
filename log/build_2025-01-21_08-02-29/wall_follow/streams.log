@@ -1,0 +1,91 @@
+[0.144s] Invoking command in '/home/jji06/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jji06/sim_ws/src/wall_follow -DCMAKE_INSTALL_PREFIX=/home/jji06/sim_ws/install/wall_follow
+[0.224s] -- The C compiler identification is GNU 9.4.0
+[0.294s] -- The CXX compiler identification is GNU 9.4.0
+[0.296s] -- Check for working C compiler: /usr/bin/cc
+[0.370s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.371s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.456s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.570s] -- Detecting CXX compiler ABI info
+[0.655s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.669s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.688s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.689s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.805s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.847s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.902s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.924s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Looking for pthread.h
+[1.078s] -- Looking for pthread.h - found
+[1.079s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.126s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.127s] -- Looking for pthread_create in pthreads
+[1.175s] -- Looking for pthread_create in pthreads - not found
+[1.175s] -- Looking for pthread_create in pthread
+[1.220s] -- Looking for pthread_create in pthread - found
+[1.220s] -- Found Threads: TRUE  
+[1.331s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.332s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.420s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.446s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.518s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.564s] -- Configured cppcheck include dirs: /home/jji06/sim_ws/src/wall_follow/include
+[1.565s] -- Configured cppcheck exclude dirs and/or files: 
+[1.565s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.565s] -- Configured cpplint exclude dirs and/or files: 
+[1.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.565s] -- Added test 'lint_cmake' to check CMake code style
+[1.566s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.566s] -- Added test 'uncrustify' to check C / C++ code style
+[1.566s] -- Configured uncrustify additional arguments: 
+[1.566s] -- Added test 'xmllint' to check XML markup files
+[1.568s] -- Configuring done
+[1.575s] -- Generating done
+[1.580s] -- Build files have been written to: /home/jji06/sim_ws/build/wall_follow
+[1.585s] Invoked command in '/home/jji06/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jji06/sim_ws/src/wall_follow -DCMAKE_INSTALL_PREFIX=/home/jji06/sim_ws/install/wall_follow
+[1.587s] Invoking command in '/home/jji06/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jji06/sim_ws/build/wall_follow -- -j2 -l2
+[1.610s] [35m[1mScanning dependencies of target wall_follow[0m
+[1.678s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow.dir/src/follower.cpp.o[0m
+[5.942s] [100%] [32m[1mLinking CXX executable wall_follow[0m
+[6.202s] [100%] Built target wall_follow
+[6.212s] Invoked command in '/home/jji06/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jji06/sim_ws/build/wall_follow -- -j2 -l2
+[6.221s] Invoking command in '/home/jji06/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jji06/sim_ws/build/wall_follow
+[6.229s] -- Install configuration: ""
+[6.229s] -- Installing: /home/jji06/sim_ws/install/wall_follow/lib/wall_follow/wall_follow
+[6.237s] -- Set runtime path of "/home/jji06/sim_ws/install/wall_follow/lib/wall_follow/wall_follow" to ""
+[6.237s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[6.237s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[6.237s] -- Installing: /home/jji06/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[6.238s] -- Installing: /home/jji06/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[6.285s] Listing '/home/jji06/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[6.285s] Compiling '/home/jji06/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py'...
+[6.289s] -- Installing: /home/jji06/sim_ws/install/wall_follow/lib/wall_follow/follower.py
+[6.289s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/scripts
+[6.289s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/scripts/follower.py
+[6.289s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[6.290s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[6.292s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[6.292s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[6.292s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[6.293s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[6.293s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[6.293s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[6.293s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[6.293s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[6.294s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[6.294s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[6.294s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[6.294s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[6.296s] -- Installing: /home/jji06/sim_ws/install/wall_follow/share/wall_follow/package.xml
+[6.299s] Invoked command in '/home/jji06/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jji06/sim_ws/build/wall_follow
