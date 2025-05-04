@@ -6,10 +6,9 @@
 Our project focused on developing an autonomous parking system that implements a forward parking algorithm. It does so through using LIDAR data and a finite state machine.
 
 ## How It Works
-The algorithm can be broken down into 5 states in a state machine.
+The algorithm can be broken down into 4 states in a state machine.
 - Drive forward until you reach a gap to park
 - Reverse into the middle of the spot next to it
-- Briefly wait for a second
 - Turn into the parking spot
 - Straighten the car and stop
 
